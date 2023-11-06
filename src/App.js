@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="portfolio-container">
+      <div className="portfolio-content">
+        <h1 className="portfolio-title">Shafy Portfolio</h1>
+        <p className="portfolio-description">
+          Welcome to my portfolio. Here, you can find some of my latest projects
+          and learn more about my skills.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
